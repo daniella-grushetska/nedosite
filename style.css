@@ -1,0 +1,129 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 253, 253, 0.5),
+        rgba(0, 0, 0, 0.267)
+      ),
+      url(img/IMG_1285.JPG);
+  
+    font-family: "Hammersmith One", "Playfair Display", "Roboto", sans-serif;
+  }
+  
+  .main-header {
+    background-color: rgba(0, 0, 0, 0.323);
+    padding: 18px 6px;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 140px;
+  }
+  
+  .company-logo {
+    width: 150px;
+    height: 60px;
+  }
+  
+  .header-navigation {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .menu-link {
+    color: #ffffff;
+    font-weight: 550;
+    font-size: 14px;
+    transition: color 0.8s ease;
+    text-decoration: none;
+  }
+  
+  .menu-link:hover {
+    color: #000000;
+  }
+  
+  .hero-section {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+    color: #000000;
+    margin-top: 200px;
+  }
+  
+  .hero-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .hero-title {
+    font-size: 34px;
+    font-weight: 850;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 0px;
+  }
+  
+  .hero-line {
+    width: 30%;
+    height: 1.5px;
+    background-color: #000505;
+    margin: 10px auto;
+    border: none;
+  }
+  
+  .hero-paragraph {
+    line-height: 1.5;
+    font-size: 14px;
+  }
+  
+  .hero-button {
+    font-family: "Hammersmith One";
+    color: #000505;
+    border: 2px solid #001817;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .hero-button:hover {
+    color: white;
+    background-color: #000000;
+  }
+  
+  .hero-pages {
+    margin-top: 170px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .page {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #110101;
+  }
+  
+  .page.active {
+    background-color: #011715;
+    border: 1px solid #030807;
+  }
+  
